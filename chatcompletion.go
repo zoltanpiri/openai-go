@@ -1930,7 +1930,7 @@ func (r *ChatCompletionTokenLogprobTopLogprob) UnmarshalJSON(data []byte) error 
 
 // The properties Function, Type are required.
 type ChatCompletionToolParam struct {
-	Function shared.FunctionDefinitionParam `json:"function,omitzero,required"`
+	VectorStoreIds []string `json:"vector_store_ids,omitzero,required"`
 	// The type of the tool. Currently, only `function` is supported.
 	//
 	// This field can be elided, and will marshal its zero value as "function".
