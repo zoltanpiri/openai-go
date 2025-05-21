@@ -11,8 +11,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/openai/openai-go"
-	"github.com/openai/openai-go/option"
+	"github.com/zoltanpiri/openai-go"
+	"github.com/zoltanpiri/openai-go/option"
 )
 
 func TestAudioSpeechNewWithOptionalParams(t *testing.T) {

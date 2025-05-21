@@ -1,7 +1,7 @@
 package apijson
 
 import (
-	"github.com/openai/openai-go/packages/respjson"
+	"github.com/zoltanpiri/openai-go/packages/respjson"
 	"reflect"
 )
 

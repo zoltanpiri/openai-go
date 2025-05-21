@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openai/openai-go"
-	"github.com/openai/openai-go/internal"
-	"github.com/openai/openai-go/option"
-	"github.com/openai/openai-go/shared"
+	"github.com/zoltanpiri/openai-go"
+	"github.com/zoltanpiri/openai-go/internal"
+	"github.com/zoltanpiri/openai-go/option"
+	"github.com/zoltanpiri/openai-go/shared"
 )
 
 type closureTransport struct {

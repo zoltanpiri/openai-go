@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/openai/openai-go"
+	"github.com/zoltanpiri/openai-go"
 )
 
 func main() {

@@ -1,6 +1,6 @@
 # OpenAI Go API Library
 
-<a href="https://pkg.go.dev/github.com/openai/openai-go"><img src="https://pkg.go.dev/badge/github.com/openai/openai-go.svg" alt="Go Reference"></a>
+<a href="https://pkg.go.dev/github.com/zoltanpiri/openai-go"><img src="https://pkg.go.dev/badge/github.com/zoltanpiri/openai-go.svg" alt="Go Reference"></a>
 
 The OpenAI Go library provides convenient access to the [OpenAI REST API](https://platform.openai.com/docs)
 from applications written in Go.
@@ -11,7 +11,7 @@ from applications written in Go.
 
 ```go
 import (
-	"github.com/openai/openai-go" // imported as openai
+	"github.com/zoltanpiri/openai-go" // imported as openai
 )
 ```
 
@@ -22,7 +22,7 @@ Or to pin the version:
 <!-- x-release-please-start-version -->
 
 ```sh
-go get -u 'github.com/openai/openai-go@v1.0.0'
+go get -u 'github.com/zoltanpiri/openai-go@v1.0.0'
 ```
 
 <!-- x-release-please-end -->
@@ -42,9 +42,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/openai/openai-go"
-	"github.com/openai/openai-go/option"
-	"github.com/openai/openai-go/shared"
+	"github.com/zoltanpiri/openai-go"
+	"github.com/zoltanpiri/openai-go/option"
+	"github.com/zoltanpiri/openai-go/shared"
 )
 
 func main() {
@@ -495,7 +495,7 @@ client.Chat.Completions.New(context.TODO(), ...,
 )
 ```
 
-See the [full list of request options](https://pkg.go.dev/github.com/openai/openai-go/option).
+See the [full list of request options](https://pkg.go.dev/github.com/zoltanpiri/openai-go/option).
 
 ### Pagination
 
@@ -782,8 +782,8 @@ package main
 
 import (
 	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/openai/openai-go"
-	"github.com/openai/openai-go/azure"
+	"github.com/zoltanpiri/openai-go"
+	"github.com/zoltanpiri/openai-go/azure"
 )
 
 func main() {
@@ -820,7 +820,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/openai/openai-go/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/zoltanpiri/openai-go/issues) with questions, bugs, or suggestions.
 
 ## Contributing
 

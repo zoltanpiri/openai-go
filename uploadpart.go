@@ -11,12 +11,12 @@ import (
 	"mime/multipart"
 	"net/http"
 
-	"github.com/openai/openai-go/internal/apiform"
-	"github.com/openai/openai-go/internal/apijson"
-	"github.com/openai/openai-go/internal/requestconfig"
-	"github.com/openai/openai-go/option"
-	"github.com/openai/openai-go/packages/respjson"
-	"github.com/openai/openai-go/shared/constant"
+	"github.com/zoltanpiri/openai-go/internal/apiform"
+	"github.com/zoltanpiri/openai-go/internal/apijson"
+	"github.com/zoltanpiri/openai-go/internal/requestconfig"
+	"github.com/zoltanpiri/openai-go/option"
+	"github.com/zoltanpiri/openai-go/packages/respjson"
+	"github.com/zoltanpiri/openai-go/shared/constant"
 )
 
 // UploadPartService contains methods and other services that help with interacting

@@ -9,15 +9,15 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/openai/openai-go/internal/apijson"
-	"github.com/openai/openai-go/internal/apiquery"
-	"github.com/openai/openai-go/internal/requestconfig"
-	"github.com/openai/openai-go/option"
-	"github.com/openai/openai-go/packages/pagination"
-	"github.com/openai/openai-go/packages/param"
-	"github.com/openai/openai-go/packages/respjson"
-	"github.com/openai/openai-go/shared"
-	"github.com/openai/openai-go/shared/constant"
+	"github.com/zoltanpiri/openai-go/internal/apijson"
+	"github.com/zoltanpiri/openai-go/internal/apiquery"
+	"github.com/zoltanpiri/openai-go/internal/requestconfig"
+	"github.com/zoltanpiri/openai-go/option"
+	"github.com/zoltanpiri/openai-go/packages/pagination"
+	"github.com/zoltanpiri/openai-go/packages/param"
+	"github.com/zoltanpiri/openai-go/packages/respjson"
+	"github.com/zoltanpiri/openai-go/shared"
+	"github.com/zoltanpiri/openai-go/shared/constant"
 )
 
 // BatchService contains methods and other services that help with interacting with

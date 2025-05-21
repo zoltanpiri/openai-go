@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/openai/openai-go"
-	"github.com/openai/openai-go/internal/testutil"
-	"github.com/openai/openai-go/option"
+	"github.com/zoltanpiri/openai-go"
+	"github.com/zoltanpiri/openai-go/internal/testutil"
+	"github.com/zoltanpiri/openai-go/option"
 )
 
 func TestUploadNew(t *testing.T) {
